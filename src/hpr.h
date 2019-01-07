@@ -1,0 +1,2 @@
+int readIMU();
+int readAltimeter();
