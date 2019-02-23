@@ -1,6 +1,6 @@
 {
     "terminal.integrated.env.osx": {
-        "PATH": "/Users/DarcyMeyer/.platformio/penv/bin:/Users/DarcyMeyer/.platformio/penv:/usr/local/opt/openssl/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/DarcyMeyer/.cargo/bin:/Users/DarcyMeyer/.rvm/gems/ruby-2.3.0/bin:/Users/DarcyMeyer/.rvm/gems/ruby-2.3.0@global/bin:/Users/DarcyMeyer/.rvm/rubies/ruby-2.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/DarcyMeyer/.rvm/bin:/Users/DarcyMeyer/.useful_scripts/bin:/Users/DarcyMeyer/node_modules/markdown-pdf/bin:/Users/DarcyMeyer/Library/Android/sdk/tools/bin:/usr/local/sbin",
+        "PATH": "/Users/DarcyMeyer/.platformio/penv/bin:/Users/DarcyMeyer/.platformio/penv:/usr/local/opt/openssl/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/DarcyMeyer/.cargo/bin:/Users/DarcyMeyer/.rvm/gems/ruby-2.3.0/bin:/Users/DarcyMeyer/.rvm/gems/ruby-2.3.0@global/bin:/Users/DarcyMeyer/.rvm/rubies/ruby-2.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/DarcyMeyer/.rvm/bin:/Users/DarcyMeyer/.useful_scripts:/Users/DarcyMeyer/node_modules/markdown-pdf/bin:/Users/DarcyMeyer/Library/Android/sdk/tools/bin:/usr/local/sbin:/Users/DarcyMeyer/Documents/School/CS542/hw1",
         "PLATFORMIO_CALLER": "vscode"
     }
 }

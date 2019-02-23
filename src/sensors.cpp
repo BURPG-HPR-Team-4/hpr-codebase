@@ -1,11 +1,14 @@
 #include <Arduino.h>
 #include <hpr.h>
 
-int readIMU() {
+int readAccelerometer() {
     return 0;
 }
 
-int readAltimeter() {
+int readStratologger() {
     return 0;
 }
 
+int readBarometer() {
+    return 0;
+}
