@@ -1,6 +1,8 @@
 // #ifndef HEADER_MAIN
 // #define HEADER_MAIN
 
+// #include <string>
+// using namespace std;
 
 // for sensors
 int readAccelerometer();
@@ -14,19 +16,19 @@ void checkMainChuteDeployment();
 
 
 // for actions
+void logAction(char* s);
+void logData();
 void deployDrogueChute();
 void deployMainChute();
-void logData();
-void logAction(String s);
 void transmit();
-bool writeSD();
+int writeToSD(char* str);
 
 
 // for model
 // (nothing yet)
 
 
-extern bool drogueDeployed;
-extern bool mainDeployed;
+extern int drogueDeployed;
+extern int mainDeployed;
 
 // #endif
