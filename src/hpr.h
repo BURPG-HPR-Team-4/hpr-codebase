@@ -1,8 +1,8 @@
 // #ifndef HEADER_MAIN
 // #define HEADER_MAIN
-
-// #include <string>
-// using namespace std;
+#include <Arduino.h>
+#include <string> // ide can't decide if this exists
+using namespace std;
 
 // for sensors
 int readAccelerometer();
@@ -16,12 +16,12 @@ void checkMainChuteDeployment();
 
 
 // for actions
-void logAction(char* s);
+void logAction(string s);
 void logData();
 void deployDrogueChute();
 void deployMainChute();
 void transmit();
-int writeToSD(char* str);
+int writeToSD(string str);
 
 
 // for model

@@ -2,11 +2,10 @@
 #include <hpr.h>
 // #include <chrono>
 // #include <stdio.h>
-// #include <string>
+#include <string>
+using namespace std;
 
-// using namespace std;
-
-int writeToSD(char* str) {
+int writeToSD(string str) {
     // writes to SD card, returns true if it could write
     return false;
 }
@@ -17,9 +16,10 @@ void logData() {
     // this is for the regular logging
 }
 
-void logAction(char* s) {
+void logAction(string s) {
     // this is for logging special events like chute deployment
     writeToSD(s);
+    return;
 }
 
 void deployDrogueChute() {
