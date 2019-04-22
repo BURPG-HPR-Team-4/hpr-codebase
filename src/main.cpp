@@ -34,11 +34,11 @@ int mainDeployed;
 
 // accelgyro
 MPU6050 accelgyro; // should use 18/19 for I2C?
-int16_t * ax, ay, az;
-int16_t * gx, gy, gz;
+int16_t * ax, * ay, * az;
+int16_t * gx, * gy, * gz;
 
 void setup() {
-    Serial.begin (9600); // Teensy does not use Serial?
+    Serial.begin (9600); // Teensy does not use Serial? jk
     drogueDeployed = false;
     mainDeployed = false;
     // initialize all sensors
@@ -47,12 +47,13 @@ void setup() {
     pinMode(LED_PIN, OUTPUT);
     Serial.println("hi");
     // printf("Heyo");
+    accelgyro.initialize();
 }
 
 void loop() {
     //1. read sensors
         // functionToReadAllSensorsAndUpdateGlobalVars();
-    // readAccelerometer(accelgyro);
+    readAccelerometer(accelgyro, ax, ay, az, gx, gy, gz); 
         // (altitude and acceleration written into buffers)
     //2. log
     // logData();

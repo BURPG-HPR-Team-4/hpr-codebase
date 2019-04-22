@@ -2,10 +2,11 @@
 // #define HEADER_MAIN
 #include <Arduino.h>
 #include <string> // ide can't decide if this exists
+#include <MPU6050.h>
 using namespace std;
 
 // for sensors
-int readAccelerometer();
+int readAccelerometer(MPU6050 accelgyro, int16_t * ax, int16_t * ay, int16_t * az, int16_t * gx, int16_t * gy, int16_t * gz);
 int readStratologger();
 int readBarometer();
 
