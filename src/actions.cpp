@@ -18,7 +18,8 @@ void logData() {
 
 void logAction(string s) {
     // this is for logging special events like chute deployment
-    writeToSD(s);
+    // add timestamp to the string
+    writeToSD(s); // write the string with the timestamp
     return;
 }
 
