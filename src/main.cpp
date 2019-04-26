@@ -18,15 +18,15 @@
 #include <RH_RF95.h>
 
 #define RFM95_CS 10
-#define RFM95_RST 9
-#define RFM95_INT 14 // changed from 2
+#define RFM95_RST 17
+#define RFM95_INT 16 // changed from 2
 
 // Change to 434.0 or other frequency, must match RX's freq!
 #define RF95_FREQ 915.0
 
 // Singleton instance of the radio driver
-// RH_RF95 rf95(RFM95_CS, RFM95_INT);
-RH_RF95 rf95(10,16);
+RH_RF95 rf95(RFM95_CS, RFM95_INT);
+// RH_RF95 rf95(10,16);
 
 int16_t packetnum = 0;  // packet counter, we increment per xmission
 
